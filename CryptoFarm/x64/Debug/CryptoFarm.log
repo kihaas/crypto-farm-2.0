@@ -1,0 +1,1306 @@
+﻿  binance.cpp
+C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/binance.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+       см. объявление "std::runtime_error"
+      C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+C:\Users\vi\c\matplotlib-cpp-master-main\matplotlibcpp.h(5,10): error C1083: Не удается открыть файл включение: Python.h: No such file or directory,
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/binance.cpp")
+  
+  economy.cpp
+  game_logic.cpp
+C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/game_logic.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+       см. объявление "std::runtime_error"
+      C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(22,16): error C2512: sf::Sprite: нет подходящего конструктора по умолчанию
+      C:\SFML-3.0.0\include\SFML\Graphics\Sprite.hpp(50,25):
+       см. объявление "sf::Sprite"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(23,22): error C2653: TextureManager: не является именем класса или пространства имен
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(23,38): error C3861: getInstance: идентификатор не найден
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(37,17): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(37,17):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(38,17): error C2660: sf::Transformable::setScale: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(98,10):
+       см. объявление "sf::Transformable::setScale"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(38,17):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(60,17): error C2511: bool GardenBed::plantSeed(float): перегруженная функция-член не найдена в "GardenBed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(27,7):
+       см. объявление "GardenBed"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,24): error C3312: не найдена вызываемая функция "begin" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,24): error C3312: не найдена вызываемая функция "end" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,16): error C2530: plant: ссылки должны быть инициализированы
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,16): error C3531: plant: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,22): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,24): error C2597: недопустимая ссылка на нестатический член "GardenBed::plants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(44,24):
+       см. объявление "GardenBed::plants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,30): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,24): error C2451: условное выражение типа "unknown" является недопустимым
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(61,24):
+      неправильно сформированная ссылка на нестатичный элемент
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(70,17): error C2511: void GardenBed::waterPlants(float): перегруженная функция-член не найдена в "GardenBed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(27,7):
+       см. объявление "GardenBed"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,24): error C3312: не найдена вызываемая функция "begin" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,24): error C3312: не найдена вызываемая функция "end" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,16): error C2530: plant: ссылки должны быть инициализированы
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,16): error C3531: plant: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,22): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,24): error C2597: недопустимая ссылка на нестатический член "GardenBed::plants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(44,24):
+       см. объявление "GardenBed::plants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,30): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,24): error C2451: условное выражение типа "unknown" является недопустимым
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(71,24):
+      неправильно сформированная ссылка на нестатичный элемент
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(78,17): error C2511: void GardenBed::fertilizePlants(float): перегруженная функция-член не найдена в "GardenBed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(27,7):
+       см. объявление "GardenBed"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,24): error C3312: не найдена вызываемая функция "begin" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,24): error C3312: не найдена вызываемая функция "end" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,16): error C2530: plant: ссылки должны быть инициализированы
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,16): error C3531: plant: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,22): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,24): error C2597: недопустимая ссылка на нестатический член "GardenBed::plants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(44,24):
+       см. объявление "GardenBed::plants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,30): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,24): error C2451: условное выражение типа "unknown" является недопустимым
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(79,24):
+      неправильно сформированная ссылка на нестатичный элемент
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(92,17): error C2511: void GardenBed::render(sf::RenderWindow &): перегруженная функция-член не найдена в "GardenBed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(27,7):
+       см. объявление "GardenBed"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(93,22): error C2653: TextureManager: не является именем класса или пространства имен
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(93,38): error C3861: getInstance: идентификатор не найден
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(94,25): error C2512: sf::Sprite::Sprite: нет подходящего конструктора по умолчанию
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(94,25):
+      при попытке сопоставить список аргументов "()"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(95,27): error C2597: недопустимая ссылка на нестатический член "GardenBed::position"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(43,18):
+       см. объявление "GardenBed::position"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(96,15): error C2660: sf::Transformable::setScale: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(98,10):
+       см. объявление "sf::Transformable::setScale"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(96,15):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(100,9): error C2597: недопустимая ссылка на нестатический член "GardenBed::plants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(100,9):
+       см. объявление "GardenBed::plants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(100,9): error C3867: "GardenBed::plants": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(100,9): error C2568: [: не удается разрешить перегрузку функции
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(100,34): error C2597: недопустимая ссылка на нестатический член "GardenBed::position"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(43,18):
+       см. объявление "GardenBed::position"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(127,28): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(128,35): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(137,5): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(146,12): error C2511: void Game::render(sf::RenderWindow &): перегруженная функция-член не найдена в "Game"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(48,7):
+       см. объявление "Game"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,22): error C3312: не найдена вызываемая функция "begin" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,22): error C3312: не найдена вызываемая функция "end" для типа "unknown"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,16): error C2530: bed: ссылки должны быть инициализированы
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,16): error C3531: bed: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,20): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,22): error C2597: недопустимая ссылка на нестатический член "Game::gardenBeds"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(72,28):
+       см. объявление "Game::gardenBeds"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,32): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,22): error C2451: условное выражение типа "unknown" является недопустимым
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(147,22):
+      неправильно сформированная ссылка на нестатичный элемент
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(152,12): error C2511: bool Game::addNewBed(float): перегруженная функция-член не найдена в "Game"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(48,7):
+       см. объявление "Game"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(153,9): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(155,15): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(156,15): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(161,5): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(166,37): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(167,33): error C2660: GardenBed::plantSeed: функция не принимает 1 аргументов
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(31,10):
+       см. объявление "GardenBed::plantSeed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(167,33):
+      при попытке сопоставить список аргументов "(float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(171,37): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(172,30): error C2660: GardenBed::waterPlants: функция не принимает 1 аргументов
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(32,10):
+       см. объявление "GardenBed::waterPlants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(172,30):
+      при попытке сопоставить список аргументов "(float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(177,37): error C2065: currentBedCount: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(178,30): error C2660: GardenBed::fertilizePlants: функция не принимает 1 аргументов
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(33,10):
+       см. объявление "GardenBed::fertilizePlants"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(178,30):
+      при попытке сопоставить список аргументов "(float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(182,12): error C2556: void Game::sellReadyPlants(int): перегруженная функция отличается от "float Game::sellReadyPlants(int)" только возвращаемым типом
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(66,11):
+       см. объявление "Game::sellReadyPlants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(182,12): error C2371: Game::sellReadyPlants: переопределение; различные базовые типы
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(66,11):
+       см. объявление "Game::sellReadyPlants"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\game_logic.cpp(183,37): error C2065: currentBedCount: необъявленный идентификатор
+  main.cpp
+C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+       см. объявление "std::runtime_error"
+      C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,17): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,33): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,33): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2059: синтаксическая ошибка: {
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(12,6): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(12,22): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,26): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,33): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,28): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,33): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,31): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/main.cpp")
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,42): error C2440: <function-style-cast>: невозможно преобразовать "initializer list" в "sf::VideoMode"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,42):
+      "sf::VideoMode::VideoMode": ни одна перегруженная функция не может преобразовать все типы аргументов
+          C:\SFML-3.0.0\include\SFML\Window\VideoMode.hpp(61,5):
+          может быть "sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,42):
+              "sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)": невозможно преобразовать аргумент 1 из "int" в "sf::Vector2u"
+                  C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                  "sf::Vector2<unsigned int>::Vector2": ни одна перегруженная функция не может преобразовать все типы аргументов
+                      C:\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      может быть "sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                          "sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)": невозможно преобразовать аргумент 1 из "int" в "sf::Vector2<unsigned int> &&"
+                              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                              Причина: невозможно преобразовать "int" в "sf::Vector2<unsigned int>"
+                              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                      C:\SFML-3.0.0\include\SFML\System\Vector2.hpp(205,1):
+                      или       "sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                          "sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)": невозможно преобразовать аргумент 1 из "int" в "const sf::Vector2<unsigned int> &"
+                              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                              Причина: невозможно преобразовать "int" в "const sf::Vector2<unsigned int>"
+                              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,43):
+                      при попытке сопоставить список аргументов "(int)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,42):
+          при попытке сопоставить список аргументов "(int, int)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,28): error C2665: "sf::RenderWindow::RenderWindow": ни одна перегруженная функция не может преобразовать все типы аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      может быть "sf::RenderWindow::RenderWindow(sf::RenderWindow &&)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,28):
+          "sf::RenderWindow::RenderWindow(sf::RenderWindow &&)": невозможно преобразовать аргумент 1 из "const char [11]" в "sf::RenderWindow &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,55):
+              Причина: невозможно преобразовать "const char [11]" в "sf::RenderWindow"
+      C:\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      или       "sf::RenderWindow::RenderWindow(const sf::RenderWindow &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,28):
+          "sf::RenderWindow::RenderWindow(const sf::RenderWindow &)": невозможно преобразовать аргумент 1 из "const char [11]" в "const sf::RenderWindow &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,55):
+              Причина: невозможно преобразовать "const char [11]" в "const sf::RenderWindow"
+      C:\SFML-3.0.0\include\SFML\Graphics\RenderWindow.hpp(127,5):
+      или       "sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,28):
+          "sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)": невозможно преобразовать аргумент 1 из "const char [11]" в "sf::WindowHandle"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,55):
+              Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(11,28):
+      при попытке сопоставить список аргументов "(const char [11])"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(14,10): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(14,26): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(32,19): error C2512: sf::Event: нет подходящего конструктора по умолчанию
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(33,23): error C2660: sf::WindowBase::pollEvent: функция не принимает 1 аргументов
+      C:\SFML-3.0.0\include\SFML\Window\WindowBase.hpp(226,40):
+       см. объявление "sf::WindowBase::pollEvent"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(33,23):
+      при попытке сопоставить список аргументов "(sf::Event)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(34,23): error C2039: "type": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(46,37): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(46,53): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(46,35): error C2530: groundTexture: ссылки должны быть инициализированы
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(47,33): error C3536: groundTexture: не может использоваться до инициализации
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(48,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(49,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(50,30): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\main.cpp(50,30):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+  textures.cpp
+C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/textures.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+       см. объявление "std::runtime_error"
+      C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,17): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,33): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,33): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2059: синтаксическая ошибка: {
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(7,47): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(12,6): error C2825: TextureManager: должен представлять класс или пространство имен с последующим "::"
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(12,22): error C2510: TextureManager: выражение слева от "::" должно быть классом, структурой или объединением
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(13,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,47):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(14,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(15,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(16,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(17,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(18,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,49):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(19,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,54):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(20,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(21,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(22,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,52):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(23,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,50):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(24,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" (или приемлемое преобразование отсутствует)
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(98,14):
+      может быть "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+          "sf::Texture &sf::Texture::operator =(sf::Texture &&) noexcept": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(86,14):
+      или       "sf::Texture &sf::Texture::operator =(const sf::Texture &)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+          "sf::Texture &sf::Texture::operator =(const sf::Texture &)": невозможно преобразовать аргумент 2 из "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Причина: невозможно преобразовать "std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>" в "const sf::Texture"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,48):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(25,5):
+      при попытке сопоставить список аргументов "(sf::Texture, std::unique_ptr<sf::Texture,std::default_delete<sf::Texture>>)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(29,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(30,26): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(31,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(32,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(33,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(34,33): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(35,28): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(36,33): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(37,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(38,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(39,31): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(40,29): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,16): error C2819: тип "sf::Texture" не имеет перегруженный "operator ->"
+      C:\SFML-3.0.0\include\SFML\Graphics\Texture.hpp(55,25):
+       см. объявление "sf::Texture"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,16):
+      возможно, имеется в виду "."
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\textures.cpp(41,27): error C2232: ->sf::Texture::loadFromFile: левый операнд имеет тип "class", используйте "."
+  ui.cpp
+C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "../../../../Downloads/game-cryptofarm-main/game-cryptofarm-main/scr/ui.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+       см. объявление "std::runtime_error"
+      C:\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(6,69): error C2512: sf::Text: нет подходящего конструктора по умолчанию
+      C:\SFML-3.0.0\include\SFML\Graphics\Text.hpp(56,25):
+       см. объявление "sf::Text"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(6,69): error C2512: sf::Sprite: нет подходящего конструктора по умолчанию
+      C:\SFML-3.0.0\include\SFML\Graphics\Sprite.hpp(50,25):
+       см. объявление "sf::Sprite"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(9,15): error C2039: "loadFromFile": не является членом "sf::Font".
+      C:\SFML-3.0.0\include\SFML\Graphics\Font.hpp(63,25):
+       см. объявление "sf::Font"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(10,14): error C2039: "cerr": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(31,1):
+       см. объявление "std"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(10,14): error C2065: cerr: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(16,17): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(16,17):
+      при попытке сопоставить список аргументов "(int, int)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(21,14): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(21,14):
+      при попытке сопоставить список аргументов "(int, int)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(23,22): error C2653: TextureManager: не является именем класса или пространства имен
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(23,38): error C3861: getInstance: идентификатор не найден
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(30,17): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(30,17):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(34,22): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(34,22):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(38,16): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(38,16):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(42,16): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(42,16):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(46,20): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(46,20):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(50,18): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(50,18):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(54,16): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(54,16):
+      при попытке сопоставить список аргументов "(const float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(57,19): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(57,19):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(58,19): error C2660: sf::Transformable::setScale: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(98,10):
+       см. объявление "sf::Transformable::setScale"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(58,19):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(62,15): error C2039: "type": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,19): error C2039: "key": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,45): error C2039: "Num1": не является членом "sf::Keyboard".
+      C:\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+       см. объявление "sf::Keyboard"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,45): error C2065: Num1: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,59): error C2039: "key": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,85): error C2039: "Num8": не является членом "sf::Keyboard".
+      C:\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+       см. объявление "sf::Keyboard"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(63,85): error C2065: Num8: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(64,40): error C2039: "key": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(64,65): error C2039: "Num1": не является членом "sf::Keyboard".
+      C:\SFML-3.0.0\include\SFML\Window\Keyboard.hpp(41,11):
+       см. объявление "sf::Keyboard"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(64,65): error C2065: Num1: необъявленный идентификатор
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(72,15): error C2039: "type": не является членом "sf::Event".
+      C:\SFML-3.0.0\include\SFML\Window\Event.hpp(46,7):
+       см. объявление "sf::Event"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(96,22): error C2660: Game::addNewBed: функция не принимает 1 аргументов
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\include\game_logic.h(62,10):
+       см. объявление "Game::addNewBed"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(96,22):
+      при попытке сопоставить список аргументов "(float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(142,21): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(142,21):
+      при попытке сопоставить список аргументов "(const float, const float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(147,17): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(147,17):
+      при попытке сопоставить список аргументов "(const float, const float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,24): error C2665: "sf::Text::Text": ни одна перегруженная функция не может преобразовать все типы аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Text.hpp(93,5):
+      может быть "sf::Text::Text(const sf::Font &&,sf::String,unsigned int)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,24):
+          "sf::Text::Text(const sf::Font &&,sf::String,unsigned int)": невозможно преобразовать аргумент 1 из "const char [15]" в "const sf::Font &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+              Причина: невозможно преобразовать "const char [15]" в "const sf::Font"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+              "sf::Font::Font": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\SFML-3.0.0\include\SFML\Graphics\Font.hpp(463,1):
+                  может быть "sf::Font::Font(sf::Font &&)"
+                      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                      "sf::Font::Font(sf::Font &&)": невозможно преобразовать аргумент 1 из "const char [15]" в "sf::Font &&"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Причина: невозможно преобразовать "const char [15]" в "sf::Font"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                  C:\SFML-3.0.0\include\SFML\Graphics\Font.hpp(463,1):
+                  или       "sf::Font::Font(const sf::Font &)"
+                      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                      "sf::Font::Font(const sf::Font &)": невозможно преобразовать аргумент 1 из "const char [15]" в "const sf::Font &"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Причина: невозможно преобразовать "const char [15]" в "const sf::Font"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                  C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                  при попытке сопоставить список аргументов "(const char [15])"
+      C:\SFML-3.0.0\include\SFML\Graphics\Text.hpp(87,5):
+      или       "sf::Text::Text(const sf::Font &,sf::String,unsigned int)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,24):
+          "sf::Text::Text(const sf::Font &,sf::String,unsigned int)": невозможно преобразовать аргумент 1 из "const char [15]" в "const sf::Font &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+              Причина: невозможно преобразовать "const char [15]" в "const sf::Font"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+              "sf::Font::Font": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\SFML-3.0.0\include\SFML\Graphics\Font.hpp(463,1):
+                  может быть "sf::Font::Font(sf::Font &&)"
+                      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                      "sf::Font::Font(sf::Font &&)": невозможно преобразовать аргумент 1 из "const char [15]" в "sf::Font &&"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Причина: невозможно преобразовать "const char [15]" в "sf::Font"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                  C:\SFML-3.0.0\include\SFML\Graphics\Font.hpp(463,1):
+                  или       "sf::Font::Font(const sf::Font &)"
+                      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                      "sf::Font::Font(const sf::Font &)": невозможно преобразовать аргумент 1 из "const char [15]" в "const sf::Font &"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Причина: невозможно преобразовать "const char [15]" в "const sf::Font"
+                          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                          Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+                  C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,25):
+                  при попытке сопоставить список аргументов "(const char [15])"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(153,24):
+      при попытке сопоставить список аргументов "(const char [15], sf::Font, int)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(154,16): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(154,16):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,23): error C2665: "sf::Text::Text": ни одна перегруженная функция не может преобразовать все типы аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Text.hpp(93,5):
+      может быть "sf::Text::Text(const sf::Font &&,sf::String,unsigned int)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,23):
+          "sf::Text::Text(const sf::Font &&,sf::String,unsigned int)": невозможно преобразовать аргумент 1 из "const std::basic_string<char,std::char_traits<char>,std::allocator<char>>" в "const sf::Font &&"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,24):
+              Причина: невозможно преобразовать "const std::basic_string<char,std::char_traits<char>,std::allocator<char>>" в "const sf::Font"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,24):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\SFML-3.0.0\include\SFML\Graphics\Text.hpp(87,5):
+      или       "sf::Text::Text(const sf::Font &,sf::String,unsigned int)"
+          C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,23):
+          "sf::Text::Text(const sf::Font &,sf::String,unsigned int)": невозможно преобразовать аргумент 1 из "const std::basic_string<char,std::char_traits<char>,std::allocator<char>>" в "const sf::Font &"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,24):
+              Причина: невозможно преобразовать "const std::basic_string<char,std::char_traits<char>,std::allocator<char>>" в "const sf::Font"
+              C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,24):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(161,23):
+      при попытке сопоставить список аргументов "(const std::basic_string<char,std::char_traits<char>,std::allocator<char>>, sf::Font, int)"
+  
+C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(162,15): error C2660: sf::Transformable::setPosition: функция не принимает 2 аргументов
+      C:\SFML-3.0.0\include\SFML\Graphics\Transformable.hpp(70,10):
+       см. объявление "sf::Transformable::setPosition"
+      C:\Users\vi\Downloads\game-cryptofarm-main\game-cryptofarm-main\scr\ui.cpp(162,15):
+      при попытке сопоставить список аргументов "(float, float)"
+  
+  Создание кода...
